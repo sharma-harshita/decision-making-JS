@@ -42,7 +42,7 @@ const c = 3;
 
 // if you are having more than 3 conditions to check then better you go with switch  statements.
 
-// const gender = "male";
+// const gender = "male"; 
 
 // switch (gender) {
 //     case "male":
