@@ -62,6 +62,36 @@ const c = 3;
 //Write down a switch-case statement, which takes num from 1-7 , and give day related to it.
 // 1 = Monday, 2 = Tuesday, 3 = Wednesday, 4 = Thursday, 5 = Friday, 6 = Saturday, 7 = Sunday
 
+const num = 2;
+
+switch (num) {
+    case 1:
+        console.log("Its bad Monday !!");
+        break;
+    case 2:
+        console.log("Its Tuesday !!");
+        break;
+    case 3:
+        console.log("Its Wednesday !!");
+        break;
+    case 4:
+        console.log("Its Thursday !!");
+        break;
+    case 5:
+        console.log("Its Friday, weekend will start from tomorrow !!");
+        break;
+    case 6:
+        console.log("Its saturday !!");
+        break;
+    case 7:
+        console.log("Its best sunday !!");
+        break;
+    default:
+        console.log("Not a valid number");
+        break;
+}
+
+
 switch (true) {
     case a>b && a>c:
         console.log("A is biggest");
