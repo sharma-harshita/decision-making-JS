@@ -92,6 +92,9 @@ switch (num) {
 }
 
 
+//Largest among three numbers
+
+
 switch (true) {
     case a>b && a>c:
         console.log("A is biggest");
